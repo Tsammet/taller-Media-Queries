@@ -8,6 +8,17 @@
     /* border: 1px solid black; */
 }
 
+.logo{
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+}
+
+.pianoStein{
+    width: 100%;
+    height: 400px;
+}
+
 header{
     display: flex;
     width: 100%;
@@ -17,7 +28,7 @@ header{
 header div{
     width: 50%;
     height: 100px;
-    background-color: violet;
+    background-color: white;
     border: 1px solid black;
 }
 
@@ -73,18 +84,24 @@ footer article{
     header div{
         height: 150px;
         width: 100%;
-        background-color: violet;
+        background-color: white;
         border: 1px solid black;    }
 
     #content{
         background-color: blueviolet;
         height: 300px;
         width: 100%;
-        margin-top: 20px;
+        margin-top: 100px;
     }
 
     #articles{
         flex-direction: column;
+    }
+
+    .pianoStein{
+        width: 100%;
+        height: 300px;
+
     }
 
     #articles article{
